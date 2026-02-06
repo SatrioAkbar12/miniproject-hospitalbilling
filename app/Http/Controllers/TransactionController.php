@@ -131,14 +131,6 @@ class TransactionController extends Controller
             ->with('success', 'Transaksi berhasil diperbarui.');
     }
 
-    public function finalize(Transaction $transaction): RedirectResponse
-    {
-        $transaction->update(['status' => 'completed']);
-
-        return redirect()->route('transactions.index')
-            ->with('success', 'Transaksi berhasil diselesaikan.');
-    }
-
     public function show(Transaction $transaction)
     {
         $transaction->load(['details', 'creator', 'voucher']);

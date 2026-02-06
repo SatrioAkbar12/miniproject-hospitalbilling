@@ -8,7 +8,7 @@ Sistem manajemen transaksi medis dan dashboard analitik yang dirancang untuk mem
 - **Styling:** Tailwind CSS
 - **Database:** PostgreSQL
 
-## 🛠 Fitur Utama
+## Fitur Utama
 1. **Dashboard Marketing:** Visualisasi data.
 2. **Master Voucher:** Manajemen diskon khusus asuransi (Reliance, Allianz, Prudential) dengan validasi periode Januari 2026.
 3. **Transaksi Kasir:** - Input transaksi multi-tindakan medis (Data prosedur ditarik dari API Eksternal).
